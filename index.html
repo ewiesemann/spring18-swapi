@@ -23,20 +23,34 @@
 
         <div id="sw-people"></div>
       </div>
+
       <div class="col">
         <div class="row">
           <div class="col">
             <h1>Races</h1>
             <div id='races-data'></div>
           </div>
-          <div class="col">
-            <h1>Classes</h1>
-            <div id='classes-data'></div>
+        </div>
+      </div>
+      <div class="col">
+        <h1>Classes</h1>
+        <div id='classes-data'></div>
+      </div>
+      <div class="row">
+        <div id="active-data" class="col">
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <h1>Pokemon</h1>
+          <div id="poke-data">
+
           </div>
         </div>
-        <div class="row">
-          <div id="active-data" class="col">
 
+        <div class="col">
+          <div id="poke-stats">
           </div>
         </div>
       </div>
@@ -50,11 +64,15 @@
   <!-- SERVICES -->
   <script src="app/swapi-service.js"></script>
   <script src="app/dnd-service.js"></script>
+  <script src="app/pokemon-service.js"></script>
+
 
   <!-- CONTROLLERS -->
   <script src="app/swapi-controller.js"></script>
   <script src="app/races-controller.js"></script>
   <script src="app/classes-controller.js"></script>
+  <script src="app/pokemon-controller.js"></script>
+
 
   <!-- INIT APP -->
   <script src="app/app.js"></script>
